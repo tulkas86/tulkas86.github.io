@@ -1,193 +1,61 @@
-<!DOCTYPE html>
-<html lang='en'>
-
-<head>
-  <meta charset='UTF-8'>
-  <title>Portfolio Homepage</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+  <head>
+  <title>Luis Vanni Portfolio</title>
+  <!--meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"-->
   <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <div class="container">
-    <div class="nav-wrapper">
-      <div class="left-side">
-        <div class="nav-link-wrapper active-nav-link">
-          <a href="index.html">Home</a>
-        </div>
-
-        <div class="nav-link-wrapper">
-          <a href="about.html">About</a>
-        </div>
-      </div>
-
-      <div class="right-side">
-        <div class="brand">
-          JORDAN HUDGENS
-        </div>
-      </div>
-    </div>
-
-    <div class="content-wrapper">
-      <div class="portfolio-items-wrapper">
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio1.jpg)"></div>
-
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/quip.png" alt="">
+  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Personal Portfolio" />
+  <meta name="author" content="Luis Vanni" />
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />   
+  </head>
+  <body>
+    <header class="masthead bg-dark text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="img/avatarr.jpg" alt="" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Luis Alberto Vanni</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
-
-            <div class="subtitle">I built the Quip Ecommerce platform, named a Top 25 Invention by Time Magazine in 2016.</div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Engineer - IT Infrastructure - Modern Authentication</p>
+        </div>
+    </header>
+        
+      <!--div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Column 3</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
           </div>
         </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio2.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/devcamp.png" alt="">
-            </div>
-
-            <div class="subtitle">Coding bootcamp and learning management system.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio3.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/eventbrite.png" alt="">
-            </div>
-
-            <div class="subtitle">Eventbrite is the leading event management platform on the web with millions of individuals utilizing their applications
-              to find, register or, and management events in numerous industries.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio4.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/shop-hacker.png" alt="">
-            </div>
-
-            <div class="subtitle">Shop Hacker allows you to easily import digital products such as elearning courses, software, and games directly
-              into your ecommerce store.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio5.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/crondose.png" alt="">
-            </div>
-
-            <div class="subtitle">Online tutorials and productivity tips.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio6.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/dailysmarty.png" alt="">
-            </div>
-
-            <div class="subtitle">Keep track of what you learn every day.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio7.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/dashtrack.png" alt="">
-            </div>
-
-            <div class="subtitle">What you track improves. DashTrack is a journal that makes it easy to track your daily tasks and make the most
-              of your time each day.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio8.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/devtrunk.png" alt="">
-            </div>
-
-            <div class="subtitle">Online shop for developer happiness.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio9.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/edutechional.png" alt="">
-            </div>
-
-            <div class="subtitle">Online technology tutorials.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio10.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/ministry-safe.png" alt="">
-            </div>
-
-            <div class="subtitle">A complete child safety system for organizations.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio11.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/open-devos.png" alt="">
-            </div>
-
-            <div class="subtitle">Publish and share daily devotionals.</div>
-          </div>
-        </div>
-
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/portfolio12.jpg)"></div>
-          <div class="img-text-wrapper">
-            <div class="logo-wrapper">
-              <img src="images/logos/toastability.png" alt="">
-            </div>
-
-            <div class="subtitle">Easy way to manage the digital life of your bar or restaurant.</div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-</body>
-
-<script>
-  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
-
-  portfolioItems.forEach(portfolioItem => {
-    portfolioItem.addEventListener('mouseover', () => {
-      console.log(portfolioItem.childNodes[1].classList)
-      portfolioItem.childNodes[1].classList.add('image-blur');
-    });
-
-    portfolioItem.addEventListener('mouseout', () => {
-      console.log(portfolioItem.childNodes[1].classList)
-      portfolioItem.childNodes[1].classList.remove('image-blur');
-    });
-  });
-
-</script>
-
+      </div-->
+  </body>
 </html>
