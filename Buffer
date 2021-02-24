@@ -1,0 +1,31 @@
+<!--About-->
+<div id="about" class="w3-container w3-2021-inkwell w3-center">
+  <br><br><br> 
+  <h1>About Me</h1>
+  <p>I am a Systems Engineer graduated from <a href="https://www.frd.utn.edu.ar" target="_blank">UTN Facultad Regional Delta</a>.</p>
+  <p>With more than 15 years within IT Infrastructure. My goal is to keep developing my technical skills within the Infrastructure field.</p>
+  <hr style="width: 50%" class="w3-opacity">
+      <h4 class="w3-padding-16">Technical Skills</h4>
+ </div>
+<!--div class="w3-content w3-display-container">
+<img class="Bariloche" src="img/IMG_clouds.jpg" width="100%">
+<img class="Bariloche" src="img/IMG_trees.jpg" width="100%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("Bariloche");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 8000); // Change image every 2 seconds
+}
+</script-->
+</body>
+</html>
